@@ -5,7 +5,8 @@ channels:
 dependencies:
   - arriba=1.1.0
   - bioconda::star=2.7.0f
-  - bioconda::samtools=1.9
+  - bioconda::samtools=1.9 
+  - bioconda::openssl=1.0
   - conda-forge::r-circlize
   - conda-forge::readline=6.2
   - bioconda::bioconductor-genomicalignments
