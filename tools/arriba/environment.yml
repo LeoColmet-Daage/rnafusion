@@ -10,3 +10,5 @@ dependencies:
   - conda-forge::readline=6.2
   - bioconda::bioconductor-genomicalignments
   - bioconda::bioconductor-genomicranges
+  - bioconda::bioconductor-genomeinfodbdata
+  - bioconda::bioconductor-genomeinfodb
