@@ -490,7 +490,7 @@ process ericscript {
         -o ./tmp \\
         ${reads}
 
-    if [-f ./tmp/fusions.results.filtered.tsv]; then
+    if [ -f ./tmp/fusions.results.filtered.tsv ]; then
         mv ./tmp/fusions.results.filtered.tsv ./tmp/${sample}_ericscript.tsv
     fi
     """
